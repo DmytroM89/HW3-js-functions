@@ -52,12 +52,12 @@ console.log(Math.pow(2, 10)); // для проверки
 
 console.log('------------- # 8');
 function isBigger(a, b) {
-   return a > b ? true : false;
+   return a > b;
 }
 console.log(isBigger(5, 25));
 
 console.log('------------- # 9');
 function isSmaller(a, b) {
-   return a < b ? true : false;
+   return a < b;
 }
 console.log(isSmaller(5, 25));
